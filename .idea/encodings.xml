@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.3.12.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-nacos-example/nacos-consumer-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-nacos-example/nacos-provider-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-nacos-example/nacos-provider-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-nacos-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-nacos-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-feign-example/feign-consumer-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-feign-example/feign-provider-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-feign-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-feign-example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

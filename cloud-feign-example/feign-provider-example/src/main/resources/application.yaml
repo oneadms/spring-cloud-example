@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  servlet:
+    context-path: "/api"
+spring:
+  application:
+    name: "feign-provider"
+  cloud:
+    nacos:
+      discovery:
+        # 配置注册中心的地址(必要配置)
+        server-addr: 119.91.222.75:8848
