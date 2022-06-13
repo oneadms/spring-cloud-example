@@ -37,9 +37,9 @@ public class ConsumerController {
 
     return testFeign.object2(userParams);
   }
-  //TODO 有问题  无法接收参数 @RequestParam 可以正常接收 但是feign接收不到
+
   @PostMapping("/map1")
-  public Map<String ,Object> mapObj(@SpringQueryMap LinkedHashMap<String ,Object> map) {
+  public Map<String ,Object> mapObj(@RequestParam Map<String ,Object> map) {
     return testFeign.mapObj1(map);
   }
   @PostMapping("/map2")

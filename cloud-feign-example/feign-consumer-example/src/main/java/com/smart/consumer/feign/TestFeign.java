@@ -27,5 +27,5 @@ public interface TestFeign {
    Map<String ,Object> mapObj2(@RequestBody Map<String ,Object>  map) ;
   @PostMapping("/map1")
 
-  Map<String ,Object> mapObj1( @SpringQueryMap Map<String ,Object> map) ;
+  Map<String ,Object> mapObj1( @RequestParam Map<String ,Object> map) ;
 }

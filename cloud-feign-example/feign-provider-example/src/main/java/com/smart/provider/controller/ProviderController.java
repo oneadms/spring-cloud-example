@@ -3,6 +3,7 @@ package com.smart.provider.controller;
 import com.smart.provider.qo.UserParams;
 import java.util.Map;
 import org.apache.catalina.User;
+import org.springframework.cloud.openfeign.SpringQueryMap;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,7 +29,7 @@ public class ProviderController {
     return userParams;
   }
   @PostMapping("/map1")
-  public Map<String ,Object> mapObj(Map<String ,Object>  map) {
+  public Map<String ,Object> mapObj(@RequestParam Map<String ,Object>  map) {
     return map;
   }
   @PostMapping("/map2")
