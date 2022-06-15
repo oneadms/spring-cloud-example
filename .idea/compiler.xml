@@ -11,6 +11,7 @@
         <module name="feign-consumer-example" />
         <module name="nacos-provider-example" />
         <module name="nacos-consumer-example" />
+        <module name="alibaba-config-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-config-example" options="-parameters" />
       <module name="alibaba-nacos-example" options="-parameters" />
       <module name="feign-consumer-example" options="-parameters" />
       <module name="feign-provider-example" options="-parameters" />

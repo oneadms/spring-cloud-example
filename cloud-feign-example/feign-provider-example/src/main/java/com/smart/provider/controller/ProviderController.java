@@ -25,7 +25,6 @@ public class ProviderController {
 
   @RequestMapping("/obj2")
   public UserParams object2(@RequestBody UserParams userParams) {
-
     return userParams;
   }
   @PostMapping("/map1")

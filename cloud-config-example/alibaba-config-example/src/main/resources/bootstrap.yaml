@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: alibaba-config-example
+  cloud:
+    nacos:
+      config:
+        server-addr: 119.91.222.75:8848
+        username: nacos
+        password: nacos
+#        prefix: application
+        file-extension: yaml
+  profiles:
+    active: dev
+
+
