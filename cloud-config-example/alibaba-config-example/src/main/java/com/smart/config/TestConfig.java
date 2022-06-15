@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
+/**
+ * @RefreshScope 进行配置热更新
+ */
 @RefreshScope
 public class TestConfig {
 

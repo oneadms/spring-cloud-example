@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="feign-provider-example" />
+        <module name="alibaba-sentinel-provider-example" />
         <module name="feign-consumer-example" />
-        <module name="nacos-provider-example" />
         <module name="nacos-consumer-example" />
+        <module name="alibaba-sentinel-consumer-example" />
+        <module name="feign-provider-example" />
+        <module name="nacos-provider-example" />
         <module name="alibaba-config-example" />
       </profile>
     </annotationProcessing>
@@ -22,6 +24,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="alibaba-config-example" options="-parameters" />
       <module name="alibaba-nacos-example" options="-parameters" />
+      <module name="alibaba-sentinel-consumer-example" options="-parameters" />
+      <module name="alibaba-sentinel-provider-example" options="-parameters" />
       <module name="feign-consumer-example" options="-parameters" />
       <module name="feign-provider-example" options="-parameters" />
       <module name="nacos-consumer-example" options="-parameters" />

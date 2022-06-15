@@ -17,6 +17,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>alibaba-nacos-example</module>
+    <module>alibaba-sentinel-example</module>
     <module>cloud-config-example</module>
     <module>cloud-feign-example</module>
   </modules>

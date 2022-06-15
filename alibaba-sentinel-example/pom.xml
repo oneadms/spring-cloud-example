@@ -5,19 +5,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.smart</groupId>
-    <artifactId>alibaba-nacos-example</artifactId>
+    <artifactId>spring-cloud-example</artifactId>
     <version>0.1</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>nacos-provider-example</artifactId>
-
-<dependencies>
-  <dependency>
-    <groupId>com.alibaba.cloud</groupId>
-    <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-
-  </dependency>
-
-</dependencies>
+  <artifactId>alibaba-sentinel-example</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>alibaba-sentinel-consumer-example</module>
+    <module>alibaba-sentinel-provider-example</module>
+  </modules>
 
 </project>
