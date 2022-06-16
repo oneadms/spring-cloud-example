@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: alibaba-sentinel-provider-example
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.91.222.75:8848
+        username: nacos
+        password: nacos
+    sentinel:
+      eager: true
+      transport:
+
+        dashboard: 119.91.222.75:8080
